@@ -36,5 +36,7 @@ function addElementToBeginningOfArray (array, element) {
     array.pop();
     return array;
   }
-  
+  function removeElementFromEndOfArray (array){
+    return array.slice(-1);
+  }
   
