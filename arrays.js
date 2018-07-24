@@ -28,9 +28,9 @@ function addElementToBeginningOfArray (array, element) {
   }
   
   function removeElementFromBeginningOfArray (array){
-    return array.slice(1);
-   
-  }
+    array.slice(1);
+    return array;
+   }
   
   function destructivelyRemoveElementFromEndOfArray (array) {
     array.pop();
