@@ -40,4 +40,3 @@ function addElementToBeginningOfArray (array, element) {
     return array.slice(-1);
   }
   
-  
